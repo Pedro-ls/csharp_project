@@ -1,0 +1,8 @@
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\projectRoupas\projectRoupas\bin\Release\projectRoupas.exe.config
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\projectRoupas\projectRoupas\obj\Release\projectRoupas.views.Clothes.resources
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\projectRoupas\projectRoupas\obj\Release\projectRoupas.views.Users.resources
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\projectRoupas\projectRoupas\obj\Release\projectRoupas.views.Venda.resources
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\projectRoupas\projectRoupas\obj\Release\projectRoupas.views.Login.resources
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\projectRoupas\projectRoupas\obj\Release\projectRoupas.Properties.Resources.resources
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\projectRoupas\projectRoupas\obj\Release\projectRoupas.views.ScreenMain.resources
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\projectRoupas\projectRoupas\obj\Release\projectRoupas.csproj.GenerateResource.Cache

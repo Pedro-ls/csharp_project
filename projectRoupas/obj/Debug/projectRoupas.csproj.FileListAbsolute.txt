@@ -1,0 +1,13 @@
+c:\users\administrador\documents\visual studio 2015\Projects\projectRoupas\projectRoupas\bin\Debug\projectRoupas.exe.config
+c:\users\administrador\documents\visual studio 2015\Projects\projectRoupas\projectRoupas\obj\Debug\projectRoupas.Properties.Resources.resources
+c:\users\administrador\documents\visual studio 2015\Projects\projectRoupas\projectRoupas\obj\Debug\projectRoupas.csproj.GenerateResource.Cache
+c:\users\administrador\documents\visual studio 2015\Projects\projectRoupas\projectRoupas\bin\Debug\projectRoupas.exe
+c:\users\administrador\documents\visual studio 2015\Projects\projectRoupas\projectRoupas\bin\Debug\projectRoupas.pdb
+c:\users\administrador\documents\visual studio 2015\Projects\projectRoupas\projectRoupas\obj\Debug\projectRoupas.exe
+c:\users\administrador\documents\visual studio 2015\Projects\projectRoupas\projectRoupas\obj\Debug\projectRoupas.pdb
+c:\users\administrador\documents\visual studio 2015\Projects\projectRoupas\projectRoupas\obj\Debug\projectRoupas.views.Venda.resources
+c:\users\administrador\documents\visual studio 2015\Projects\projectRoupas\projectRoupas\obj\Debug\projectRoupas.views.Login.resources
+c:\users\administrador\documents\visual studio 2015\Projects\projectRoupas\projectRoupas\obj\Debug\projectRoupas.views.ScreenMain.resources
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\projectRoupas\projectRoupas\obj\Debug\projectRoupas.views.Users.resources
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\projectRoupas\projectRoupas\obj\Debug\projectRoupas.views.Clothes.resources
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\projectRoupas\projectRoupas\obj\Debug\projectRoupas.csprojResolveAssemblyReference.cache
