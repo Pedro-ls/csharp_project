@@ -1,34 +1,45 @@
-﻿use AppRoupa;
+﻿-- create database AppRoupa
+-- crie um usuario na mão preferencialmente um ADM
 
--- 1
-create table  users (
-		id INTEGER PRIMARY KEY IDENTITY,
-        name VARCHAR(100),
-        username VARCHAR(100) UNIQUE,
-        password VARCHAR(50),
-        cpf VARCHAR(11),
-		date_birthday DATE,
-		creditCard VARCHAR(30),
-		typeUser VARCHAR(3) DEFAULT 'CLI' -- ADM(Administrator) and CLI(client)
+use AppRoupa;
+
+GO
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[users] (
+    [id]            INT           IDENTITY (1, 1) NOT NULL,
+    [name]          VARCHAR (100) NULL,
+    [username]      VARCHAR (100) NULL,
+    [password]      VARCHAR (50)  NULL,
+    [cpf]           VARCHAR (11)  NULL,
+    [date_birthday] DATE          NULL,
+    [creditCard]    VARCHAR (30)  NULL,
+    [typeUser]      VARCHAR (3)   NULL DEFAULT 'CLI' -- pode ser 'CLI' ou 'ADM'
 );
 
-create table cloth(
-	id INTEGER PRIMARY KEY IDENTITY,
-	description_product TEXT,
-	price NUMERIC(5, 2),
-	brand VARCHAR(50),
-	photo VARCHAR(300),
-	provider VARCHAR(110),
-	datePost DATE,
-	qtdInventory INTEGER
+CREATE TABLE [dbo].[cloth] (
+    [id]                  INT            IDENTITY (1, 1) NOT NULL,
+    [description_product] TEXT           NULL,
+    [price]               NUMERIC (5, 2) NULL,
+    [brand]               VARCHAR (50)   NULL,
+    [photo]               VARCHAR (300)  NULL,
+    [provider]            VARCHAR (110)  NULL,
+    [datePost]            DATE           NULL,
+    [qtdInventory]        INT            NULL
 );
 
-create table venda(
-		id INTEGER PRIMARY KEY IDENTITY,
-		foreign_id_users INTEGER,
-		foreign_id_cloth INTEGER,
-		date_created DATE,
-		qtd INTEGER,
-		foreign key (foreign_id_users) references users(id),
-		foreign key (foreign_id_cloth) references cloth(id)
+CREATE TABLE [dbo].[business] (
+    [id]               INT  IDENTITY (1, 1) NOT NULL,
+    [foreign_id_users] INT  NULL,
+    [foreign_id_cloth] INT  NULL,
+    [date_created]     DATE NULL,
+    [qtd]              INT  NULL,
+    [businessStatus]   INT  NULL,
+	foreign key (foreign_id_users) references users(id),
+	foreign key (foreign_id_cloth) references cloth(id)
 );

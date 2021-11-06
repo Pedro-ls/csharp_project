@@ -41,9 +41,7 @@ namespace projectRoupas.views
 
                     ScreenMain screen = new ScreenMain();
 
-                    screen.ShowDialog();
-
-                    this.Dispose(false);
+                    screen.Show();
 
                 }
                 else
@@ -52,8 +50,8 @@ namespace projectRoupas.views
                 }  
                 
             }
-            catch {
-                MessageBox.Show("erro na conexão");
+            catch (Exception ex) {
+                MessageBox.Show("erro na conexão" + ex.Message.ToString());
             }
 
                     

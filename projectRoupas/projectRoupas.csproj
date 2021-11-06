@@ -49,6 +49,7 @@
     <Compile Include="connect\App.cs" />
     <Compile Include="connect\Connection.cs" />
     <Compile Include="connect\Structure.cs" />
+    <Compile Include="models\VendaModel.cs" />
     <Compile Include="StateGlobal.cs" />
     <Compile Include="views\Clothes.cs">
       <SubType>Form</SubType>

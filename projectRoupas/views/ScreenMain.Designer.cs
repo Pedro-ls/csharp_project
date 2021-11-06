@@ -232,6 +232,7 @@ namespace projectRoupas.views
             this.btnLeft.TabIndex = 4;
             this.btnLeft.Text = "<";
             this.btnLeft.UseVisualStyleBackColor = false;
+            this.btnLeft.Click += new System.EventHandler(this.btnLeft_Click);
             // 
             // panel4
             // 
@@ -252,10 +253,12 @@ namespace projectRoupas.views
             this.btnRight.TabIndex = 5;
             this.btnRight.Text = ">";
             this.btnRight.UseVisualStyleBackColor = false;
+            this.btnRight.Click += new System.EventHandler(this.btnRight_Click);
             // 
             // panelImage
             // 
             this.panelImage.BackColor = System.Drawing.Color.BlueViolet;
+            this.panelImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panelImage.Location = new System.Drawing.Point(424, 12);
             this.panelImage.Name = "panelImage";
             this.panelImage.Size = new System.Drawing.Size(252, 325);

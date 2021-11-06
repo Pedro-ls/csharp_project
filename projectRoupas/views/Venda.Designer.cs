@@ -56,10 +56,12 @@
             this.btnBuy.TabIndex = 0;
             this.btnBuy.Text = "Comprar";
             this.btnBuy.UseVisualStyleBackColor = false;
+            this.btnBuy.Click += new System.EventHandler(this.btnBuy_Click);
             // 
             // pnlImgProduto
             // 
             this.pnlImgProduto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pnlImgProduto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pnlImgProduto.Location = new System.Drawing.Point(455, 43);
             this.pnlImgProduto.Name = "pnlImgProduto";
             this.pnlImgProduto.Size = new System.Drawing.Size(257, 307);
