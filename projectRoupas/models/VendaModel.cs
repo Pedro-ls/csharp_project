@@ -30,5 +30,24 @@ namespace projectRoupas.models
 
             }
         }
+
+        public bool delete(int id)
+        {
+            try
+            {
+                Structure.query(String.Format(@"DELETE FROM business WHERE id = {0};",
+                   id
+                ));
+
+                return true;
+
+            }
+            catch
+            {
+
+                return false;
+
+            }
+        }
     }
 }

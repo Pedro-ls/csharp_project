@@ -13,6 +13,7 @@ namespace projectRoupas.lib
         private Cloth cloth;
         private DateTime date;
         private int qtd;
+        private int status;
 
         public int IdBusiness
         {
@@ -76,6 +77,19 @@ namespace projectRoupas.lib
             set
             {
                 qtd = value;
+            }
+        }
+
+        public int Status
+        {
+            get
+            {
+                return status;
+            }
+
+            set
+            {
+                status = value;
             }
         }
     }
